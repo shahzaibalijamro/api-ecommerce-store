@@ -1,0 +1,1782 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-COMMERCE STORE</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="https://f.nooncdn.com/s/app/com/noon/design-system/logos/noon-logo-en.svg"
+                    alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <div class="d-flex">
+                            <img src="https://f.nooncdn.com/s/app/com/common/images/flags/ae.svg" alt="">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Deliver to
+                                <br><b>Dubai</b>
+                            </a>
+                        </div>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex w-75 p-3 col align-self-center" role="search">
+                    <input class="form-control w-100 me-2" type="search" placeholder="What are you looking for?"
+                        aria-label="Search">
+                </form>
+                <div class="d-flex">
+                    <span class="arabic">العربية</span>
+                    <div class="nav-border"></div>
+                </div>
+                <div class="d-flex">
+                    <span class="navbar-text">Log In</span>
+                    <img class="log-in-img" src="https://f.nooncdn.com/s/app/com/noon/icons/user_thin.svg" alt="">
+                    <div class="nav-border"></div>
+                </div>
+                <div class="d-flex">
+                    <span class="navbar-text">Wishlist</span>
+                    <img class="log-in-img" src="https://f.nooncdn.com/s/app/com/noon/icons/wishlist.svg" alt="">
+                    <div class="nav-border"></div>
+                </div>
+                <div class="d-flex">
+                    <span class="navbar-text">Cart</span>
+                    <img class="log-in-img" src="https://f.nooncdn.com/s/app/com/noon/icons/cart.svg" alt="">
+                    <div class="nav-border"></div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid d-flex second-nav">
+        <div class="all-categories d-flex align-items-baseline btn-group dropend">
+            <p class="m-0 fw-semibold">
+                <a class="notextdeco bold-on-hover" href="#">
+                    ALL CATEGORIES
+                </a>
+            </p>
+            <i class="fa-solid fa-caret-right ms-2"></i>
+        </div>
+        <ul class="d-flex justify-content-around align-items-center mynavbottom m-0 p-0 fw-semibold">
+            <li class="liststyletypenone">
+                <a class="notextdeco bold-on-hover" href="#">
+                    ELECTRONICS
+                </a>
+            </li>
+            <li class="liststyletypenone mn">
+                <a class="notextdeco bold-on-hover" href="#">
+                    MEN
+                </a>
+            </li>
+            <li class="liststyletypenone wom">
+                <a class="notextdeco bold-on-hover" href="#">
+                    WOMEN
+                </a>
+            </li>
+            <li class="liststyletypenone baf">
+                <a class="notextdeco bold-on-hover" href="#">
+                    BEAUTY AND FRAGNANCE
+                </a>
+            </li>
+            <li class="liststyletypenone ba">
+                <a class="notextdeco bold-on-hover" href="#">
+                    BABY
+                </a>
+            </li>
+            <li class="liststyletypenone to">
+                <a class="notextdeco bold-on-hover" href="#">
+                    TOYS
+                </a>
+            </li>
+            <li class="liststyletypenone sp">
+                <a class="notextdeco bold-on-hover" href="#">
+                    SPORTS
+                </a>
+            </li>
+            <li class="liststyletypenone han">
+                <a class="notextdeco bold-on-hover" href="#">
+                    HEALTH AND NUTRITION
+                </a>
+            </li>
+            <li class="liststyletypenone son">
+                <a class="notextdeco bold-on-hover" href="#">
+                    SELL ON NOON
+                </a>
+            </li>
+        </ul>
+        <i class="fa-solid fa-caret-right"></i>
+    </div>
+    <div class="container-xxl p-0">
+        <img style="cursor: pointer;" class="w-100"
+            src="https://f.nooncdn.com/mpcms/EN0001/assets/0a73af00-c851-45b8-b23f-f2e7c8f5dca4.png?format=avif" alt="">
+    </div>
+    <div class="container-xxl d-flex p-0">
+        <div style="cursor: pointer;" id="carouselExampleInterval" class="carousel slide left-banner" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="https://f.nooncdn.com/mpcms/EN0001/assets/75610749-18ed-4cc0-ab03-b8f0c37d7bb1.png?format=avif"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://f.nooncdn.com/mpcms/EN0001/assets/420601b9-fc7e-4724-b2ef-7c0ad7d19e4c.png?format=avif"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://f.nooncdn.com/ads/banner-1008x1008/en_dk_uae-hero-01.1707287235.2615848.png?format=avif"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://f.nooncdn.com/mpcms/EN0001/assets/a76f64cc-7332-49b5-b694-14aa660c28ce.png?format=avif"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://f.nooncdn.com/ads/banner-1008x1008/en_dk_uae-hero-01%20(28).1707314532.7277827.png?format=avif"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://f.nooncdn.com/ads/banner-1008x1008/en_dk_uae-hero-01.1706603009.1770787.png?format=avif"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://f.nooncdn.com/mpcms/EN0001/assets/86261d4c-48da-432b-8975-5ef2443a9527.png?format=avif"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://f.nooncdn.com/mpcms/EN0001/assets/af899b2f-1f12-4c9e-a3dd-5ebb0d93b6ce.gif?format=avif"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://f.nooncdn.com/mpcms/EN0002/assets/aac48369-b009-4b8b-ad11-b402928bb756.png?format=avif"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://f.nooncdn.com/mpcms/EN0001/assets/83b71291-65f5-4fcc-8db8-a72d91b32426.jpg?format=avif"
+                        class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <div style="cursor: pointer;" class="right-banner d-flex">
+            <img class="r-b-images"
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/9fa77bc4-04be-47ec-a433-42126343092c.png?format=avif"
+                alt="">
+            <img class="r-b-images"
+                src="https://f.nooncdn.com/mpcms/EN0001/assets/aeca53b5-4d64-4733-a911-0143b32ce237.png?format=avif"
+                alt="">
+        </div>
+    </div>
+    <div class="container-xxl p-0">
+        <div>
+            <div class="banner-categories d-flex justify-content-around">
+                <img style="cursor: pointer;" class="banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/8a18e2f7-ae5b-4f3b-8db9-3292d456f8a3.png?format=avif" alt="">
+                <img style="cursor: pointer;" class="banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/fd61b886-c6f2-40a6-b030-8f5b3deb121b.png?format=avif" alt="">
+                <img style="cursor: pointer;" class="banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/48914119-fa3e-4576-b973-8a492e3d3af0.png?format=avif" alt="">
+                <img style="cursor: pointer;" class="banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/ea0c9b64-a980-4e5f-a76b-ad3078087956.png?format=avif" alt="">
+                <img style="cursor: pointer;" class="banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/ff1d9c34-d671-40ff-b47c-d354e03fc0ee.png?format=avif" alt="">
+                <img style="cursor: pointer;" class="banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/376a89b1-2a30-4e04-b6c1-bf79ca5bb1f8.png?format=avif" alt="">
+                <img style="cursor: pointer;" class="banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/f6342c6e-e0b5-4412-9519-77677dc240af.png?format=avif" alt="">
+                <img style="cursor: pointer;" class="banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/58972bc4-3b86-46fa-8e21-386e377907e5.png?format=avif" alt="">
+                <img style="cursor: pointer;" class="banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/ce930a17-6988-4409-a751-bca03f7f6b32.png?format=avif" alt="">
+                <img style="cursor: pointer;" class="banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/53d4fb22-5809-4a8a-aee4-35c8449d911e.png?format=avif" alt="">
+                <img style="cursor: pointer;" class="banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/f7f7b677-559c-42ae-b5fe-1dfe8c581964.png?format=avif" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container-xxl d-flex mt-3 justify-content-between mb-4 p-0">
+        <div class="mega-deals in-focus-container">
+            <h1 class="in-focus-text" >In Focus</h1>
+            <div class="d-flex justify-content-center in-focus-img gap-8rem w-100">
+                <img class="m-r-t-shop" src="https://f.nooncdn.com/mpcms/EN0001/assets/d5ea7157-ef25-4dcd-bfdb-167e97b8923f.png?format=avif" alt="">
+                <img class="m-r-t-shop" src="https://f.nooncdn.com/mpcms/EN0001/assets/cee908c3-d779-4157-81fc-9758f28fa91d.png?format=avif" alt="">
+            </div>
+            <div class="d-flex justify-content-center gap-8rem w-100 my-wrap">
+                <img class="m-r-t-shop" src="https://f.nooncdn.com/mpcms/EN0001/assets/846500f2-70b4-4382-99ed-05cbe4eb79e9.png?format=avif" alt="">
+                <img class="m-r-t-shop" src="https://f.nooncdn.com/mpcms/EN0001/assets/2c9c92a4-a051-474d-952d-c58140fd48c0.png?format=avif" alt="">
+            </div>
+        </div>
+        <div class="mega-deals mega-deals-in">
+            <div class="d-flex justify-content-between in-focus-text-3">
+                <h1 class="in-focus-text m-0" >Mega Deals</h1>
+                <h2 class="all-deals-btn m-0">All Deals</h2>
+            </div>
+            <div class="d-flex flex-column classofrowgap">
+                <div class="d-flex justify-content-between my-wrap my-wrap-2">
+                    <div class="width-49">
+                        <div style="cursor: pointer;" class="card card-my">
+                            <div style="background-color: #f5f4f4; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                                <img class="cart-add" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                                <img class="w-50 card-img-top" src="https://f.nooncdn.com/products/tr:n-t_240/v1685775702/N53410901A_1.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="p-0 card-body">
+                            <p class="card-text-my m-0">Realme 11 Pro 8-256 GB Yellow Color ultra fast display.</p>
+                            <div class="d-flex justify-content-start align-items-baseline ps3-3">
+                                <p class="meyata one-zero-four-nine">1049</p>
+                                <p class="m-0 eight-nine-nine">899 AED</p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="width-49">
+                        <div style="cursor: pointer;" class="card card-my">
+                            <div style="background-color: #f5f4f4; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                                <img class="cart-add" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                                <img class="w-50 card-img-top" src="https://f.nooncdn.com/products/tr:n-t_240/v1669043099/N51448729A_1.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="p-0 card-body">
+                            <p class="card-text-my m-0">Apple MacBook Pro MK183 16-Inch Liquid Retina XDR Display.</p>
+                            <div class="d-flex justify-content-start align-items-baseline ps3-3">
+                                <p class="meyata one-zero-four-nine">6599</p>
+                                <p class="m-0 eight-nine-nine">6399 AED</p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between my-wrap my-wrap-2">
+                    <div class="width-49">
+                        <div style="cursor: pointer;" class="card card-my">
+                            <div style="background-color: #f5f4f4; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                                <img class="cart-add" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                                <img class="w-50 card-img-top" src="https://f.nooncdn.com/products/tr:n-t_240/v1660748345/N46569467A_1.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="p-0 card-body">
+                            <p class="card-text-my m-0">Noon East Comforter Set With Pillow Cover 50X75 Cm, Comforter 260X240 Cm - For King/Super King Size Mattress - 100% Cotton Stella Percale - Sleep Well Lightweight And Warm Bed Linen Pink/Grey Blue Printed .</p>
+                            <div class="d-flex justify-content-start align-items-baseline ps3-3">
+                                <p class="meyata one-zero-four-nine">402</p>
+                                <p class="m-0 eight-nine-nine">79 AED</p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="width-49">
+                        <div style="cursor: pointer;" class="card card-my">
+                            <div style="background-color: #f5f4f4; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                                <img class="cart-add" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                                <img class="w-50 card-img-top" src="https://f.nooncdn.com/products/tr:n-t_240/pnsku/N11200961A/45/_/1696484682/c1eaf86f-9844-41fa-86cf-1984e79a2e1c.jpg" class="card-img-top" alt="...">
+                            </div>
+                            <div class="p-0 card-body">
+                            <p class="card-text-my m-0">Rasasi Secret EDP Perfume for Women 75ml.</p>
+                            <div class="d-flex justify-content-start align-items-baseline ps3-3">
+                                <p class="meyata one-zero-four-nine">105</p>
+                                <p class="m-0 eight-nine-nine">28 AED</p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mega-deals in-focus-container">
+            <h1 class="in-focus-text" >In Focus</h1>
+            <div>
+                <img style="cursor: pointer;transition: 0.3s ease-in-out;" onmouseover="this.style.transform='scale(1.015)'" onmouseout="this.style.transform='scale(1)'" class="in-focus-img w-100" src="https://f.nooncdn.com/mpcms/EN0001/assets/26b5ab14-2596-473a-b1e6-411903ebcb44.png?format=avif" alt="">
+                <img style="cursor: pointer;transition: 0.3s ease-in-out;" onmouseover="this.style.transform='scale(1.015)'" onmouseout="this.style.transform='scale(1)'" class="w-100" src="https://f.nooncdn.com/mpcms/EN0001/assets/1b352827-1fc9-40cd-8d51-4f0b28b8f389.png?format=avif" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container-xxl d-flex flex-column p-0">
+        <h1 class="in-focus-text-2 ps7-7">Recommended for you</h1>
+        <div style="background-color: #f1f4fd;padding: 1rem 0;" class="d-flex justify-content-around">
+            <div class="card card-my-2">
+                <div style="padding: 0.5rem; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                    <div class="my-star-rating">
+                        <span class="my-star-rating-text-1">4.6</span>
+                        <i class="my-star-rating-icon fa-solid fa-star"></i>
+                        <span class="my-star-rating-text-2">(3.9k)</span>
+                    </div>
+                    <img class="love-add" src="https://f.nooncdn.com/s/app/com/noon/icons/wishlist.svg" alt="">
+                    <img class="cart-add-2" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                    <img class="w-100 border-radius-inherit card-img-top" src="https://f.nooncdn.com/p/v1686132022/N53346840A_1.jpg?format=avif&width=240" class="card-img-top" alt="...">
+                </div>
+                <div class="p-0 card-body">
+                <p class="card-text-my m-0">Apple iPhone 14 Pro Max 256GB Deep Purple 5G W….</p>
+                <div class="d-flex justify-content-start align-items-center ps5-5 ps3-3">
+                    <div class="d-flex align-items-baseline">
+                        <span class="aed">AED</span>
+                        <span class="four-six-nine-zero">4,690</span>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                        <span class="five-zero-nine-nine">5,099</span>
+                        <span class="eight-percent">8%</span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center ps3-3">
+                    <img class="green-bag-img" src="https://f.nooncdn.com/mpcms/EN0001/assets/80299f90-dd89-4c69-a3d3-19c884d5fc05.png" alt="">
+                    <span class="aed">Only 5 left in stock.</span>
+                </div>
+                <div class="d-flex ps3-3">
+                    <img class="express-img" src="https://f.nooncdn.com/s/app/com/noon/images/fulfilment_express_v2-en.svg" alt="">
+                </div>
+                </div>
+            </div>
+            <div class="card card-my-2">
+                <div style="padding: 0.5rem; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                    <div class="my-star-rating">
+                        <span class="my-star-rating-text-1">4.5</span>
+                        <i class="my-star-rating-icon fa-solid fa-star"></i>
+                        <span class="my-star-rating-text-2">(7.9k)</span>
+                    </div>
+                    <img class="love-add" src="https://f.nooncdn.com/s/app/com/noon/icons/wishlist.svg" alt="">
+                    <img class="cart-add-2" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                    <img class="w-100 border-radius-inherit card-img-top" src="https://f.nooncdn.com/p/v1669724765/N40633047A_1.jpg?format=avif&width=240" class="card-img-top" alt="...">
+                </div>
+                <div class="p-0 card-body">
+                <p class="card-text-my m-0">Sony Playstation 5 Console (Disk Version) with Controller.</p>
+                <div class="d-flex justify-content-start align-items-center ps5-5 ps3-3">
+                    <div class="d-flex align-items-baseline">
+                        <span class="aed">AED</span>
+                        <span class="four-six-nine-zero">1,797</span>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                        <span class="five-zero-nine-nine">3,999</span>
+                        <span class="eight-percent">55%</span>
+                    </div>
+                </div>
+                <div style="visibility: hidden;" class="d-flex align-items-center ps3-3">
+                    <img class="green-bag-img" src="https://f.nooncdn.com/mpcms/EN0001/assets/80299f90-dd89-4c69-a3d3-19c884d5fc05.png" alt="">
+                    <span class="aed">Only 5 left in stock.</span>
+                </div>
+                <div class="d-flex ps3-3">
+                    <img class="express-img" src="https://f.nooncdn.com/s/app/com/noon/images/fulfilment_express_v2-en.svg" alt="">
+                </div>
+                </div>
+            </div>
+            <div class="card card-my-2">
+                <div style="padding: 0.5rem; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                    <div class="my-star-rating">
+                        <span class="my-star-rating-text-1">3.1</span>
+                        <i class="my-star-rating-icon fa-solid fa-star"></i>
+                        <span class="my-star-rating-text-2">(11.9k)</span>
+                    </div>
+                    <div class="my-star-rating-2">
+                        <span class="my-star-rating-text-1">Best Seller</span>
+                    </div>
+                    <img class="love-add" src="https://f.nooncdn.com/s/app/com/noon/icons/wishlist.svg" alt="">
+                    <img class="cart-add-2" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                    <img class="w-100 border-radius-inherit card-img-top" src="https://f.nooncdn.com/p/v1663322644/N43241184A_1.jpg?format=avif&width=240" class="card-img-top" alt="...">
+                </div>
+                <div class="p-0 card-body">
+                <p class="card-text-my m-0">T500 Bluetooth Full Touch Call Smartwatch With Reply Feature.</p>
+                <div class="d-flex justify-content-start align-items-center ps5-5 ps3-3">
+                    <div class="d-flex align-items-baseline">
+                        <span class="aed">AED</span>
+                        <span class="four-six-nine-zero">17.50</span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center ps3-3">
+                    <img class="green-bag-img" src="https://f.nooncdn.com/mpcms/EN0001/assets/bbe527b1-1a11-432b-ab8c-967aef1f011e.png" alt="">
+                    <span class="aed">460+ sold recently.</span>
+                </div>
+                <div class="d-flex ps3-3">
+                    <img class="express-img" src="https://f.nooncdn.com/s/app/com/noon/images/marketplace-en.png" alt="">
+                </div>
+                </div>
+            </div>
+            <div class="card card-my-2">
+                <div style="padding: 0.5rem; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                    <div class="my-star-rating">
+                        <span class="my-star-rating-text-1">3.6</span>
+                        <i class="my-star-rating-icon fa-solid fa-star"></i>
+                        <span class="my-star-rating-text-2">(6.4k)</span>
+                    </div>
+                    <img class="love-add" src="https://f.nooncdn.com/s/app/com/noon/icons/wishlist.svg" alt="">
+                    <img class="cart-add-2" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                    <img class="w-100 border-radius-inherit card-img-top" src="https://f.nooncdn.com/p/v1680513490/N46554630A_2.jpg?format=avif&width=240" class="card-img-top" alt="...">
+                </div>
+                <div class="p-0 card-body">
+                <p class="card-text-my m-0">KIKO MILANO Unlimited Double Touch Liquid Lip Consealer.</p>
+                <div class="d-flex justify-content-start align-items-center ps5-5 ps3-3">
+                    <div class="d-flex align-items-baseline">
+                        <span class="aed">AED</span>
+                        <span class="four-six-nine-zero">69</span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center ps3-3">
+                    <img class="green-bag-img" src="https://f.nooncdn.com/mpcms/EN0001/assets/bbe527b1-1a11-432b-ab8c-967aef1f011e.png" alt="">
+                    <span class="aed">220+ sold recently.</span>
+                </div>
+                <div class="d-flex ps3-3">
+                    <img class="express-img" src="https://f.nooncdn.com/s/app/com/noon/images/fulfilment_express_v2-en.svg" alt="">
+                </div>
+                </div>
+            </div>
+            <div class="card card-my-2">
+                <div style="padding: 0.5rem; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                    <div class="my-star-rating">
+                        <span class="my-star-rating-text-1">4.6</span>
+                        <i class="my-star-rating-icon fa-solid fa-star"></i>
+                        <span class="my-star-rating-text-2">(2.4k)</span>
+                    </div>
+                    <img class="love-add" src="https://f.nooncdn.com/s/app/com/noon/icons/wishlist.svg" alt="">
+                    <img class="cart-add-2" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                    <img class="w-100 border-radius-inherit card-img-top" src="https://f.nooncdn.com/p/v1686663857/N41247610A_1.jpg?format=avif&width=240" class="card-img-top" alt="...">
+                </div>
+                <div class="p-0 card-body">
+                <p class="card-text-my m-0">Apple IPhone 11 128 GB 4G LTE White (2020 - Slicon Model).</p>
+                <div class="d-flex justify-content-start align-items-center ps5-5 ps3-3">
+                    <div class="d-flex align-items-baseline">
+                        <span class="aed">AED</span>
+                        <span class="four-six-nine-zero">1,929</span>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                        <span class="five-zero-nine-nine">2,709</span>
+                        <span class="eight-percent">28%</span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center ps3-3">
+                    <img class="green-bag-img" src="https://f.nooncdn.com/mpcms/EN0001/assets/80299f90-dd89-4c69-a3d3-19c884d5fc05.png" alt="">
+                    <span class="aed">Selling out fast.</span>
+                </div>
+                <div class="d-flex ps3-3">
+                    <img class="express-img" src="https://f.nooncdn.com/s/app/com/noon/images/fulfilment_express_v2-en.svg" alt="">
+                </div>
+                </div>
+            </div>
+            <div class="card card-my-2">
+                <div style="padding: 0.5rem; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                    <div class="my-star-rating">
+                        <span class="my-star-rating-text-1">4.4</span>
+                        <i class="my-star-rating-icon fa-solid fa-star"></i>
+                        <span class="my-star-rating-text-2">(633)</span>
+                    </div>
+                    <img class="love-add" src="https://f.nooncdn.com/s/app/com/noon/icons/wishlist.svg" alt="">
+                    <img class="cart-add-2" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                    <img class="w-100 border-radius-inherit card-img-top" src="https://f.nooncdn.com/p/v1686132049/N53347167A_1.jpg?format=avif&width=240" class="card-img-top" alt="...">
+                </div>
+                <div class="p-0 card-body">
+                <p class="card-text-my m-0">Apple iPhone 14 Pro Max 256GB Deep Purple 5G W….</p>
+                <div class="d-flex justify-content-start align-items-center ps5-5 ps3-3">
+                    <div class="d-flex align-items-baseline">
+                        <span class="aed">AED</span>
+                        <span class="four-six-nine-zero">4,770</span>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                        <span class="five-zero-nine-nine">5,099</span>
+                        <span class="eight-percent">6%</span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center ps3-3">
+                    <img class="green-bag-img" src="https://f.nooncdn.com/mpcms/EN0001/assets/80299f90-dd89-4c69-a3d3-19c884d5fc05.png" alt="">
+                    <span class="aed">Selling out fast.</span>
+                </div>
+                <div class="d-flex ps3-3">
+                    <img class="express-img" src="https://f.nooncdn.com/s/app/com/noon/images/fulfilment_express_v2-en.svg" alt="">
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-xxl p-0">
+        <div class="d-flex flex-column">
+            <h1 class="in-focus-text-2 ps7-7 m-0 new-color">Valentine's Day Store</h1>
+            <div class="new-banner-categories new-color d-flex justify-content-around">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/293fabe1-186f-4d3a-96cd-bdd8034e1f60.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/3265c07a-a4de-41e2-982d-16fcac8489c7.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/fc17c444-5a70-4a23-89e9-07d96cb7521c.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/b9c42de3-0bcc-4612-84d2-27840dab4417.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/06f6cf44-e3ed-44e2-87b2-9f558c1dbe95.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/088877d2-9b57-4464-af7a-0d63983b1df4.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/d4ba3642-3351-4a91-a3b6-f424d06900a3.png?format=avif" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container-xxl background-white d-flex flex-column pt-3 p-0">
+        <h1 class="in-focus-text-2 ps3-3">Recommended for you</h1>
+        <div style="background-color: white;padding: 1rem 0;" class="d-flex justify-content-around">
+            <div class="card card-my-2">
+                <div style="padding: 0.5rem; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                    <div class="my-star-rating">
+                        <span class="my-star-rating-text-1">4.5</span>
+                        <i class="my-star-rating-icon fa-solid fa-star"></i>
+                        <span class="my-star-rating-text-2">(338)</span>
+                    </div>
+                    <div class="my-star-rating-2">
+                        <span class="my-star-rating-text-1">Best Seller</span>
+                    </div>
+                    <img class="love-add" src="https://f.nooncdn.com/s/app/com/noon/icons/wishlist.svg" alt="">
+                    <img class="cart-add-2" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                    <img class="w-100 border-radius-inherit card-img-top" src="https://f.nooncdn.com/p/v1604758891/N41908107A_1.jpg?format=avif&width=240" class="card-img-top" alt="...">
+                </div>
+                <div class="p-0 card-body">
+                <p class="card-text-my m-0">Generic Lint Roller, Super Sticky Pet Hair Remover Kit ….</p>
+                <div class="d-flex justify-content-start align-items-center ps5-5 ps3-3">
+                    <div class="d-flex align-items-baseline">
+                        <span class="aed">AED</span>
+                        <span class="four-six-nine-zero">23</span>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                        <span class="five-zero-nine-nine">208</span>
+                        <span class="eight-percent">82%</span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center ps3-3">
+                    <img class="green-bag-img" src="https://f.nooncdn.com/mpcms/EN0001/assets/80299f90-dd89-4c69-a3d3-19c884d5fc05.png" alt="">
+                    <span class="aed">Selling out fast.</span>
+                </div>
+                <div class="d-flex ps3-3">
+                    <img class="express-img" src="https://f.nooncdn.com/s/app/com/noon/images/fulfilment_express_v2-en.svg" alt="">
+                </div>
+                </div>
+            </div>
+            <div class="card card-my-2">
+                <div style="padding: 0.5rem; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                    <div class="my-star-rating">
+                        <span class="my-star-rating-text-1">4.5</span>
+                        <i class="my-star-rating-icon fa-solid fa-star"></i>
+                        <span class="my-star-rating-text-2">(26)</span>
+                    </div>
+                    <img class="love-add" src="https://f.nooncdn.com/s/app/com/noon/icons/wishlist.svg" alt="">
+                    <img class="cart-add-2" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                    <img class="w-100 border-radius-inherit card-img-top" src="https://f.nooncdn.com/p/pzsku/ZEA919E23DB36258950F6Z/45/_/1695354686/97759e9c-e5cf-4351-9f56-7b93b69b7cbf.jpg?format=avif&width=240" class="card-img-top" alt="...">
+                </div>
+                <div class="p-0 card-body">
+                <p class="card-text-my m-0">Rock Pow Compatible with iPhone 15 Pro Max Case Liq...</p>
+                <div class="d-flex justify-content-start align-items-center ps5-5 ps3-3">
+                    <div class="d-flex align-items-baseline">
+                        <span class="aed">AED</span>
+                        <span class="four-six-nine-zero">29.90</span>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                        <span class="five-zero-nine-nine">140</span>
+                        <span class="eight-percent">78%</span>
+                    </div>
+                </div>
+                <div style="visibility: hidden;" class="d-flex align-items-center ps3-3">
+                    <img class="green-bag-img" src="https://f.nooncdn.com/mpcms/EN0001/assets/80299f90-dd89-4c69-a3d3-19c884d5fc05.png" alt="">
+                    <span class="aed">Selling out fast.</span>
+                </div>
+                <div class="d-flex ps3-3">
+                    <img class="express-img" src="https://f.nooncdn.com/s/app/com/noon/images/fulfilment_express_v2-en.svg" alt="">
+                </div>
+                </div>
+            </div>
+            <div class="card card-my-2">
+                <div style="padding: 0.5rem; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                    <div class="my-star-rating">
+                        <span class="my-star-rating-text-1">3.1</span>
+                        <i class="my-star-rating-icon fa-solid fa-star"></i>
+                        <span class="my-star-rating-text-2">(11.9k)</span>
+                    </div>
+                    <img class="love-add" src="https://f.nooncdn.com/s/app/com/noon/icons/wishlist.svg" alt="">
+                    <img class="cart-add-2" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                    <img class="w-100 border-radius-inherit card-img-top" src="https://f.nooncdn.com/p/pzsku/Z30EE653CFA647496033CZ/45/_/1695354428/12f5fbfb-359c-4908-8b70-898c6f30998e.jpg?format=avif&width=240" class="card-img-top" alt="...">
+                </div>
+                <div class="p-0 card-body">
+                <p class="card-text-my m-0">Rock Pow Compatible with iPhone 15 Pro Max Case Liq...</p>
+                <div class="d-flex justify-content-start align-items-center ps5-5 ps3-3">
+                    <div class="d-flex align-items-baseline">
+                        <span class="aed">AED</span>
+                        <span class="four-six-nine-zero">29.90</span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center ps3-3">
+                    <img class="green-bag-img" src="https://f.nooncdn.com/mpcms/EN0001/assets/bbe527b1-1a11-432b-ab8c-967aef1f011e.png" alt="">
+                    <span class="aed">40+ sold recently.</span>
+                </div>
+                <div class="d-flex ps3-3">
+                    <img class="express-img" src="https://f.nooncdn.com/s/app/com/noon/images/marketplace-en.png" alt="">
+                </div>
+                </div>
+            </div>
+            <div class="card card-my-2">
+                <div style="padding: 0.5rem; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                    <div class="my-star-rating">
+                        <span class="my-star-rating-text-1">3.6</span>
+                        <i class="my-star-rating-icon fa-solid fa-star"></i>
+                        <span class="my-star-rating-text-2">(6.4k)</span>
+                    </div>
+                    <img class="love-add" src="https://f.nooncdn.com/s/app/com/noon/icons/wishlist.svg" alt="">
+                    <img class="cart-add-2" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                    <img class="w-100 border-radius-inherit card-img-top" src="https://f.nooncdn.com/p/v1634634508/N51438096A_1.jpg?format=avif&width=240" class="card-img-top" alt="...">
+                </div>
+                <div class="p-0 card-body">
+                <p class="card-text-my m-0">Lenovo Refurbished Thinkpad T450 (2011) 8/256 GB.</p>
+                <div class="d-flex justify-content-start align-items-center ps5-5 ps3-3">
+                    <div class="d-flex align-items-baseline">
+                        <span class="aed">AED</span>
+                        <span class="four-six-nine-zero">69</span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center ps3-3">
+                    <img class="green-bag-img" src="https://f.nooncdn.com/mpcms/EN0001/assets/bbe527b1-1a11-432b-ab8c-967aef1f011e.png" alt="">
+                    <span class="aed">220+ sold recently.</span>
+                </div>
+                <div class="d-flex ps3-3">
+                    <img class="express-img" src="https://f.nooncdn.com/s/app/com/noon/images/fulfilment_express_v2-en.svg" alt="">
+                </div>
+                </div>
+            </div>
+            <div class="card card-my-2">
+                <div style="padding: 0.5rem; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                    <div class="my-star-rating">
+                        <span class="my-star-rating-text-1">4.6</span>
+                        <i class="my-star-rating-icon fa-solid fa-star"></i>
+                        <span class="my-star-rating-text-2">(2.4k)</span>
+                    </div>
+                    <img class="love-add" src="https://f.nooncdn.com/s/app/com/noon/icons/wishlist.svg" alt="">
+                    <img class="cart-add-2" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                    <img class="w-100 border-radius-inherit card-img-top" src="https://f.nooncdn.com/p/v1636532619/N51808045A_1.jpg?format=avif&width=240" class="card-img-top" alt="...">
+                </div>
+                <div class="p-0 card-body">
+                <p class="card-text-my m-0">Apple IPad Rock Pow Degree Rotating Smart Protective Case.</p>
+                <div class="d-flex justify-content-start align-items-center ps5-5 ps3-3">
+                    <div class="d-flex align-items-baseline">
+                        <span class="aed">AED</span>
+                        <span class="four-six-nine-zero">30</span>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                        <span class="five-zero-nine-nine">35</span>
+                        <span class="eight-percent">5%</span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center ps3-3">
+                    <img class="green-bag-img" src="https://f.nooncdn.com/mpcms/EN0001/assets/80299f90-dd89-4c69-a3d3-19c884d5fc05.png" alt="">
+                    <span class="aed">Selling out fast.</span>
+                </div>
+                <div class="d-flex ps3-3">
+                    <img class="express-img" src="https://f.nooncdn.com/s/app/com/noon/images/fulfilment_express_v2-en.svg" alt="">
+                </div>
+                </div>
+            </div>
+            <div class="card card-my-2">
+                <div style="padding: 0.5rem; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                    <div class="my-star-rating">
+                        <span class="my-star-rating-text-1">4.4</span>
+                        <i class="my-star-rating-icon fa-solid fa-star"></i>
+                        <span class="my-star-rating-text-2">(633)</span>
+                    </div>
+                    <img class="love-add" src="https://f.nooncdn.com/s/app/com/noon/icons/wishlist.svg" alt="">
+                    <img class="cart-add-2" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                    <img class="w-100 border-radius-inherit card-img-top" src="https://f.nooncdn.com/p/pzsku/ZCD08A3860EEE495B8CF8Z/45/_/1695353890/d5ebebc1-7d82-4a65-8b0a-fe5380b95803.jpg?format=avif&width=240" class="card-img-top" alt="...">
+                </div>
+                <div class="p-0 card-body">
+                <p class="card-text-my m-0">Apple IPhone 15 Rock Pow Degree Rotating Smart Protective Case.</p>
+                <div class="d-flex justify-content-start align-items-center ps5-5 ps3-3">
+                    <div class="d-flex align-items-baseline">
+                        <span class="aed">AED</span>
+                        <span class="four-six-nine-zero">30</span>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                        <span class="five-zero-nine-nine">25</span>
+                        <span class="eight-percent">5%</span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center ps3-3">
+                    <img class="green-bag-img" src="https://f.nooncdn.com/mpcms/EN0001/assets/80299f90-dd89-4c69-a3d3-19c884d5fc05.png" alt="">
+                    <span class="aed">Selling out fast.</span>
+                </div>
+                <div class="d-flex ps3-3">
+                    <img class="express-img" src="https://f.nooncdn.com/s/app/com/noon/images/fulfilment_express_v2-en.svg" alt="">
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-xxl background-white d-flex flex-column p-0">
+        <div class="d-flex justify-content-between">
+            <h1 class="in-focus-text-2 ps3-3">Trending deals in electronics</h1>
+            <h2 class="all-deals-btn ps33-3">All Deals</h2>
+        </div>
+        <div style="background-color: white;padding: 1rem 0;" class="d-flex justify-content-around">
+            <div class="card card-my-2">
+                <div style="padding: 0.5rem; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                    <div class="my-star-rating">
+                        <span class="my-star-rating-text-1">4.5</span>
+                        <i class="my-star-rating-icon fa-solid fa-star"></i>
+                        <span class="my-star-rating-text-2">(338)</span>
+                    </div>
+                    <div class="my-star-rating-2">
+                        <span class="my-star-rating-text-1">Best Seller</span>
+                    </div>
+                    <img class="love-add" src="https://f.nooncdn.com/s/app/com/noon/icons/wishlist.svg" alt="">
+                    <img class="cart-add-2" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                    <img class="w-100 border-radius-inherit card-img-top" src="https://f.nooncdn.com/p/pnsku/N70022609V/45/_/1699418409/a609e3fa-897b-4f59-b0e8-d6c8c9bf0794.jpg?format=avif&width=240" class="card-img-top" alt="...">
+                </div>
+                <div class="p-0 card-body">
+                <p class="card-text-my m-0">Generic Lint Roller, Super Sticky Pet Hair Remover Kit ….</p>
+                <div class="d-flex justify-content-start align-items-center ps5-5 ps3-3">
+                    <div class="d-flex align-items-baseline">
+                        <span class="aed">AED</span>
+                        <span class="four-six-nine-zero">23</span>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                        <span class="five-zero-nine-nine">208</span>
+                        <span class="eight-percent">82%</span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center ps3-3">
+                    <img class="green-bag-img" src="https://f.nooncdn.com/mpcms/EN0001/assets/80299f90-dd89-4c69-a3d3-19c884d5fc05.png" alt="">
+                    <span class="aed">Selling out fast.</span>
+                </div>
+                <div class="d-flex ps3-3">
+                    <img class="express-img" src="https://f.nooncdn.com/s/app/com/noon/images/fulfilment_express_v2-en.svg" alt="">
+                </div>
+                </div>
+            </div>
+            <div class="card card-my-2">
+                <div style="padding: 0.5rem; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                    <div class="my-star-rating">
+                        <span class="my-star-rating-text-1">4.5</span>
+                        <i class="my-star-rating-icon fa-solid fa-star"></i>
+                        <span class="my-star-rating-text-2">(26)</span>
+                    </div>
+                    <div class="my-star-rating-2">
+                        <span class="my-star-rating-text-1">Best Seller</span>
+                    </div>
+                    <img class="love-add" src="https://f.nooncdn.com/s/app/com/noon/icons/wishlist.svg" alt="">
+                    <img class="cart-add-2" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                    <img class="w-100 border-radius-inherit card-img-top" src="https://f.nooncdn.com/p/pnsku/N53398626A/45/_/1704184800/ae264b78-d1fe-4964-b7a3-4549706e7ee5.jpg?format=avif&width=240" class="card-img-top" alt="...">
+                </div>
+                <div class="p-0 card-body">
+                <p class="card-text-my m-0">Rock Pow Compatible with iPhone 15 Pro Max Case Liq...</p>
+                <div class="d-flex justify-content-start align-items-center ps5-5 ps3-3">
+                    <div class="d-flex align-items-baseline">
+                        <span class="aed">AED</span>
+                        <span class="four-six-nine-zero">29.90</span>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                        <span class="five-zero-nine-nine">140</span>
+                        <span class="eight-percent">78%</span>
+                    </div>
+                </div>
+                <div style="visibility: hidden;" class="d-flex align-items-center ps3-3">
+                    <img class="green-bag-img" src="https://f.nooncdn.com/mpcms/EN0001/assets/80299f90-dd89-4c69-a3d3-19c884d5fc05.png" alt="">
+                    <span class="aed">Selling out fast.</span>
+                </div>
+                <div class="d-flex ps3-3">
+                    <img class="express-img" src="https://f.nooncdn.com/s/app/com/noon/images/fulfilment_express_v2-en.svg" alt="">
+                </div>
+                </div>
+            </div>
+            <div class="card card-my-2">
+                <div style="padding: 0.5rem; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                    <div class="my-star-rating">
+                        <span class="my-star-rating-text-1">3.1</span>
+                        <i class="my-star-rating-icon fa-solid fa-star"></i>
+                        <span class="my-star-rating-text-2">(11.9k)</span>
+                    </div>
+                    <img class="love-add" src="https://f.nooncdn.com/s/app/com/noon/icons/wishlist.svg" alt="">
+                    <img class="cart-add-2" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                    <img class="w-100 border-radius-inherit card-img-top" src="https://f.nooncdn.com/p/pnsku/N70042230V/45/_/1706692513/9f562a55-218a-45a9-ac10-a1d5c81165ad.jpg?format=avif&width=240" class="card-img-top" alt="...">
+                </div>
+                <div class="p-0 card-body">
+                <p class="card-text-my m-0">Rock Pow Compatible with iPhone 15 Pro Max Case Liq...</p>
+                <div class="d-flex justify-content-start align-items-center ps5-5 ps3-3">
+                    <div class="d-flex align-items-baseline">
+                        <span class="aed">AED</span>
+                        <span class="four-six-nine-zero">29.90</span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center ps3-3">
+                    <img class="green-bag-img" src="https://f.nooncdn.com/mpcms/EN0001/assets/bbe527b1-1a11-432b-ab8c-967aef1f011e.png" alt="">
+                    <span class="aed">40+ sold recently.</span>
+                </div>
+                <div class="d-flex ps3-3">
+                    <img class="express-img" src="https://f.nooncdn.com/s/app/com/noon/images/marketplace-en.png" alt="">
+                </div>
+                </div>
+            </div>
+            <div class="card card-my-2">
+                <div style="padding: 0.5rem; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                    <div class="my-star-rating">
+                        <span class="my-star-rating-text-1">3.6</span>
+                        <i class="my-star-rating-icon fa-solid fa-star"></i>
+                        <span class="my-star-rating-text-2">(6.4k)</span>
+                    </div>
+                    <div class="my-star-rating-2">
+                        <span class="my-star-rating-text-1">Best Seller</span>
+                    </div>
+                    <img class="love-add" src="https://f.nooncdn.com/s/app/com/noon/icons/wishlist.svg" alt="">
+                    <img class="cart-add-2" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                    <img class="w-100 border-radius-inherit card-img-top" src="https://f.nooncdn.com/p/v1687430483/N53374783A_1.jpg?format=avif&width=240" class="card-img-top" alt="...">
+                </div>
+                <div class="p-0 card-body">
+                <p class="card-text-my m-0">Lenovo Refurbished Thinkpad T450 (2011) 8/256 GB.</p>
+                <div class="d-flex justify-content-start align-items-center ps5-5 ps3-3">
+                    <div class="d-flex align-items-baseline">
+                        <span class="aed">AED</span>
+                        <span class="four-six-nine-zero">69</span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center ps3-3">
+                    <img class="green-bag-img" src="https://f.nooncdn.com/mpcms/EN0001/assets/bbe527b1-1a11-432b-ab8c-967aef1f011e.png" alt="">
+                    <span class="aed">220+ sold recently.</span>
+                </div>
+                <div class="d-flex ps3-3">
+                    <img class="express-img" src="https://f.nooncdn.com/s/app/com/noon/images/fulfilment_express_v2-en.svg" alt="">
+                </div>
+                </div>
+            </div>
+            <div class="card card-my-2">
+                <div style="padding: 0.5rem; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                    <div class="my-star-rating">
+                        <span class="my-star-rating-text-1">4.6</span>
+                        <i class="my-star-rating-icon fa-solid fa-star"></i>
+                        <span class="my-star-rating-text-2">(2.4k)</span>
+                    </div>
+                    <div class="my-star-rating-2">
+                        <span class="my-star-rating-text-1">Best Seller</span>
+                    </div>
+                    <img class="love-add" src="https://f.nooncdn.com/s/app/com/noon/icons/wishlist.svg" alt="">
+                    <img class="cart-add-2" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                    <img class="w-100 border-radius-inherit card-img-top" src="https://f.nooncdn.com/p/v1668778790/N12901272A_1.jpg?format=avif&width=240" class="card-img-top" alt="...">
+                </div>
+                <div class="p-0 card-body">
+                <p class="card-text-my m-0">Apple IPad Rock Pow Degree Rotating Smart Protective Case.</p>
+                <div class="d-flex justify-content-start align-items-center ps5-5 ps3-3">
+                    <div class="d-flex align-items-baseline">
+                        <span class="aed">AED</span>
+                        <span class="four-six-nine-zero">30</span>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                        <span class="five-zero-nine-nine">35</span>
+                        <span class="eight-percent">5%</span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center ps3-3">
+                    <img class="green-bag-img" src="https://f.nooncdn.com/mpcms/EN0001/assets/80299f90-dd89-4c69-a3d3-19c884d5fc05.png" alt="">
+                    <span class="aed">Selling out fast.</span>
+                </div>
+                <div class="d-flex ps3-3">
+                    <img class="express-img" src="https://f.nooncdn.com/s/app/com/noon/images/fulfilment_express_v2-en.svg" alt="">
+                </div>
+                </div>
+            </div>
+            <div class="card card-my-2">
+                <div style="padding: 0.5rem; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                    <div class="my-star-rating">
+                        <span class="my-star-rating-text-1">4.4</span>
+                        <i class="my-star-rating-icon fa-solid fa-star"></i>
+                        <span class="my-star-rating-text-2">(633)</span>
+                    </div>
+                    <div class="my-star-rating-2">
+                        <span class="my-star-rating-text-1">Best Seller</span>
+                    </div>
+                    <img class="love-add" src="https://f.nooncdn.com/s/app/com/noon/icons/wishlist.svg" alt="">
+                    <img class="cart-add-2" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                    <img class="w-100 border-radius-inherit card-img-top" src="https://f.nooncdn.com/p/v1662647998/N53348815A_1.jpg?format=avif&width=240" class="card-img-top" alt="...">
+                </div>
+                <div class="p-0 card-body">
+                <p class="card-text-my m-0">Apple IPhone 15 Rock Pow Degree Rotating Smart Protective Case.</p>
+                <div class="d-flex justify-content-start align-items-center ps5-5 ps3-3">
+                    <div class="d-flex align-items-baseline">
+                        <span class="aed">AED</span>
+                        <span class="four-six-nine-zero">30</span>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                        <span class="five-zero-nine-nine">25</span>
+                        <span class="eight-percent">5%</span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center ps3-3">
+                    <img class="green-bag-img" src="https://f.nooncdn.com/mpcms/EN0001/assets/80299f90-dd89-4c69-a3d3-19c884d5fc05.png" alt="">
+                    <span class="aed">Selling out fast.</span>
+                </div>
+                <div class="d-flex ps3-3">
+                    <img class="express-img" src="https://f.nooncdn.com/s/app/com/noon/images/fulfilment_express_v2-en.svg" alt="">
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-xxl background-lavendra d-flex flex-column p-0">
+        <h1 class="in-focus-text-2 pt-3 ps3-3">Deals only on noon</h1>
+        <div style="background-color: #e1effa;padding: 1rem 0;" class="d-flex justify-content-around my-wrap my-wrap-2">
+                <div class="width-24">
+                    <div class="card card-my">
+                        <div style="background-color: white; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                            <img class="cart-add-3" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                            <img class="w-50" src="https://f.nooncdn.com/products/tr:n-t_240/v1648643700/N45672063A_1.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="p-0 card-body">
+                        <p class="card-text-my m-0">Realme 11 Pro 8-256 GB Yellow Color ultra fast display.</p>
+                        <div class="d-flex justify-content-start align-items-baseline ps3-3">
+                            <p class="meyata one-zero-four-nine">1049</p>
+                            <p class="m-0 eight-nine-nine">899 AED</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="width-24">
+                    <div class="card card-my">
+                        <div style="background-color: #f5f4f4; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                            <img class="cart-add-3" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                            <img class="w-50" src="https://f.nooncdn.com/products/tr:n-t_240/v1660122401/N48213432A_1.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="p-0 card-body">
+                        <p class="card-text-my m-0">Apple MacBook Pro MK183 16-Inch Liquid Retina XDR Display.</p>
+                        <div class="d-flex justify-content-start align-items-baseline ps3-3">
+                            <p class="meyata one-zero-four-nine">6599</p>
+                            <p class="m-0 eight-nine-nine">6399 AED</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="width-24">
+                    <div class="card card-my">
+                        <div style="background-color: #f5f4f4; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                            <img class="cart-add-3" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                            <img class="w-50" src="https://f.nooncdn.com/products/tr:n-t_240/v1647698976/N32034223A_1.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="p-0 card-body">
+                        <p class="card-text-my m-0">Realme 11 Pro 8-256 GB Yellow Color ultra fast display.</p>
+                        <div class="d-flex justify-content-start align-items-baseline ps3-3">
+                            <p class="meyata one-zero-four-nine">1049</p>
+                            <p class="m-0 eight-nine-nine">899 AED</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="width-24">
+                    <div class="card card-my">
+                        <div style="background-color: #f5f4f4; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                            <img class="cart-add-3" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                            <img class="w-50" src="https://f.nooncdn.com/products/tr:n-t_240/v1669102687/N28431691A_16.jpg" class="card-img-top" alt="...">
+                        </div>
+                        <div class="p-0 card-body">
+                        <p class="card-text-my m-0">Apple MacBook Pro MK183 16-Inch Liquid Retina XDR Display.</p>
+                        <div class="d-flex justify-content-start align-items-baseline ps3-3">
+                            <p class="meyata one-zero-four-nine">6599</p>
+                            <p class="m-0 eight-nine-nine">6399 AED</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-xxl background-white d-flex flex-column pt-3 pb-2 p-0">
+        <div class="d-flex justify-content-between">
+            <h1 class="in-focus-text-2 ps3-3">Clearance deals</h1>
+            <h2 class="all-deals-btn ps33-3">All Deals</h2>
+        </div>
+        <div style="background-color: white;padding: 1rem 0;" class="d-flex justify-content-around">
+            <div class="card card-my-2">
+                <div style="padding: 0.5rem; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                    <div class="my-star-rating">
+                        <span class="my-star-rating-text-1">4.5</span>
+                        <i class="my-star-rating-icon fa-solid fa-star"></i>
+                        <span class="my-star-rating-text-2">(338)</span>
+                    </div>
+                    <div class="my-star-rating-2">
+                        <span class="my-star-rating-text-1">Best Seller</span>
+                    </div>
+                    <img class="love-add" src="https://f.nooncdn.com/s/app/com/noon/icons/wishlist.svg" alt="">
+                    <img class="cart-add-2" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                    <img class="w-100 border-radius-inherit card-img-top" src="https://f.nooncdn.com/p/v1623649517/N48140555A_1.jpg?format=avif&width=240" class="card-img-top" alt="...">
+                </div>
+                <div class="p-0 card-body">
+                <p class="card-text-my m-0">Generic Lint Roller, Super Sticky Pet Hair Remover Kit ….</p>
+                <div class="d-flex justify-content-start align-items-center ps5-5 ps3-3">
+                    <div class="d-flex align-items-baseline">
+                        <span class="aed">AED</span>
+                        <span class="four-six-nine-zero">23</span>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                        <span class="five-zero-nine-nine">208</span>
+                        <span class="eight-percent">82%</span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center ps3-3">
+                    <img class="green-bag-img" src="https://f.nooncdn.com/mpcms/EN0001/assets/80299f90-dd89-4c69-a3d3-19c884d5fc05.png" alt="">
+                    <span class="aed">Selling out fast.</span>
+                </div>
+                <div class="d-flex ps3-3">
+                    <img class="express-img" src="https://f.nooncdn.com/s/app/com/noon/images/fulfilment_express_v2-en.svg" alt="">
+                </div>
+                </div>
+            </div>
+            <div class="card card-my-2">
+                <div style="padding: 0.5rem; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                    <div class="my-star-rating">
+                        <span class="my-star-rating-text-1">4.5</span>
+                        <i class="my-star-rating-icon fa-solid fa-star"></i>
+                        <span class="my-star-rating-text-2">(26)</span>
+                    </div>
+                    <div class="my-star-rating-2">
+                        <span class="my-star-rating-text-1">Best Seller</span>
+                    </div>
+                    <img class="love-add" src="https://f.nooncdn.com/s/app/com/noon/icons/wishlist.svg" alt="">
+                    <img class="cart-add-2" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                    <img class="w-100 border-radius-inherit card-img-top" src="https://f.nooncdn.com/p/v1690369167/N53422649A_1.jpg?format=avif&width=240" class="card-img-top" alt="...">
+                </div>
+                <div class="p-0 card-body">
+                <p class="card-text-my m-0">Rock Pow Compatible with iPhone 15 Pro Max Case Liq...</p>
+                <div class="d-flex justify-content-start align-items-center ps5-5 ps3-3">
+                    <div class="d-flex align-items-baseline">
+                        <span class="aed">AED</span>
+                        <span class="four-six-nine-zero">29.90</span>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                        <span class="five-zero-nine-nine">140</span>
+                        <span class="eight-percent">78%</span>
+                    </div>
+                </div>
+                <div style="visibility: hidden;" class="d-flex align-items-center ps3-3">
+                    <img class="green-bag-img" src="https://f.nooncdn.com/mpcms/EN0001/assets/80299f90-dd89-4c69-a3d3-19c884d5fc05.png" alt="">
+                    <span class="aed">Selling out fast.</span>
+                </div>
+                <div class="d-flex ps3-3">
+                    <img class="express-img" src="https://f.nooncdn.com/s/app/com/noon/images/fulfilment_express_v2-en.svg" alt="">
+                </div>
+                </div>
+            </div>
+            <div class="card card-my-2">
+                <div style="padding: 0.5rem; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                    <div class="my-star-rating">
+                        <span class="my-star-rating-text-1">3.1</span>
+                        <i class="my-star-rating-icon fa-solid fa-star"></i>
+                        <span class="my-star-rating-text-2">(11.9k)</span>
+                    </div>
+                    <div class="my-star-rating-2">
+                        <span class="my-star-rating-text-1">Best Seller</span>
+                    </div>
+                    <img class="love-add" src="https://f.nooncdn.com/s/app/com/noon/icons/wishlist.svg" alt="">
+                    <img class="cart-add-2" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                    <img class="w-100 border-radius-inherit card-img-top" src="https://f.nooncdn.com/p/v1678358374/N53387969A_1.jpg?format=avif&width=240" class="card-img-top" alt="...">
+                </div>
+                <div class="p-0 card-body">
+                <p class="card-text-my m-0">Rock Pow Compatible with iPhone 15 Pro Max Case Liq...</p>
+                <div class="d-flex justify-content-start align-items-center ps5-5 ps3-3">
+                    <div class="d-flex align-items-baseline">
+                        <span class="aed">AED</span>
+                        <span class="four-six-nine-zero">29.90</span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center ps3-3">
+                    <img class="green-bag-img" src="https://f.nooncdn.com/mpcms/EN0001/assets/bbe527b1-1a11-432b-ab8c-967aef1f011e.png" alt="">
+                    <span class="aed">40+ sold recently.</span>
+                </div>
+                <div class="d-flex ps3-3">
+                    <img class="express-img" src="https://f.nooncdn.com/s/app/com/noon/images/marketplace-en.png" alt="">
+                </div>
+                </div>
+            </div>
+            <div class="card card-my-2">
+                <div style="padding: 0.5rem; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                    <div class="my-star-rating">
+                        <span class="my-star-rating-text-1">3.6</span>
+                        <i class="my-star-rating-icon fa-solid fa-star"></i>
+                        <span class="my-star-rating-text-2">(6.4k)</span>
+                    </div>
+                    <img class="love-add" src="https://f.nooncdn.com/s/app/com/noon/icons/wishlist.svg" alt="">
+                    <img class="cart-add-2" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                    <img class="w-100 border-radius-inherit card-img-top" src="https://f.nooncdn.com/p/pnsku/N53405801A/45/_/1698730041/8e01c848-14a0-4fda-b83e-0b2246b6f02a.jpg?format=avif&width=240" class="card-img-top" alt="...">
+                </div>
+                <div class="p-0 card-body">
+                <p class="card-text-my m-0">Lenovo Refurbished Thinkpad T450 (2011) 8/256 GB.</p>
+                <div class="d-flex justify-content-start align-items-center ps5-5 ps3-3">
+                    <div class="d-flex align-items-baseline">
+                        <span class="aed">AED</span>
+                        <span class="four-six-nine-zero">69</span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center ps3-3">
+                    <img class="green-bag-img" src="https://f.nooncdn.com/mpcms/EN0001/assets/bbe527b1-1a11-432b-ab8c-967aef1f011e.png" alt="">
+                    <span class="aed">220+ sold recently.</span>
+                </div>
+                <div class="d-flex ps3-3">
+                    <img class="express-img" src="https://f.nooncdn.com/s/app/com/noon/images/fulfilment_express_v2-en.svg" alt="">
+                </div>
+                </div>
+            </div>
+            <div class="card card-my-2">
+                <div style="padding: 0.5rem; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                    <div class="my-star-rating">
+                        <span class="my-star-rating-text-1">4.6</span>
+                        <i class="my-star-rating-icon fa-solid fa-star"></i>
+                        <span class="my-star-rating-text-2">(2.4k)</span>
+                    </div>
+                    <img class="love-add" src="https://f.nooncdn.com/s/app/com/noon/icons/wishlist.svg" alt="">
+                    <img class="cart-add-2" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                    <img class="w-100 border-radius-inherit card-img-top" src="https://f.nooncdn.com/p/pnsku/N47872655A/45/_/1706527313/b1c49cbd-fee0-4b95-a936-b01612e6f3d5.jpg?format=avif&width=240" class="card-img-top" alt="...">
+                </div>
+                <div class="p-0 card-body">
+                <p class="card-text-my m-0">Apple IPad Rock Pow Degree Rotating Smart Protective Case.</p>
+                <div class="d-flex justify-content-start align-items-center ps5-5 ps3-3">
+                    <div class="d-flex align-items-baseline">
+                        <span class="aed">AED</span>
+                        <span class="four-six-nine-zero">30</span>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                        <span class="five-zero-nine-nine">35</span>
+                        <span class="eight-percent">5%</span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center ps3-3">
+                    <img class="green-bag-img" src="https://f.nooncdn.com/mpcms/EN0001/assets/80299f90-dd89-4c69-a3d3-19c884d5fc05.png" alt="">
+                    <span class="aed">Selling out fast.</span>
+                </div>
+                <div class="d-flex ps3-3">
+                    <img class="express-img" src="https://f.nooncdn.com/s/app/com/noon/images/fulfilment_express_v2-en.svg" alt="">
+                </div>
+                </div>
+            </div>
+            <div class="card card-my-2">
+                <div style="padding: 0.5rem; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                    <div class="my-star-rating">
+                        <span class="my-star-rating-text-1">4.4</span>
+                        <i class="my-star-rating-icon fa-solid fa-star"></i>
+                        <span class="my-star-rating-text-2">(633)</span>
+                    </div>
+                    <img class="love-add" src="https://f.nooncdn.com/s/app/com/noon/icons/wishlist.svg" alt="">
+                    <img class="cart-add-2" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                    <img class="w-100 border-radius-inherit card-img-top" src="https://f.nooncdn.com/p/v1671210226/N11005261A_1.jpg?format=avif&width=240" class="card-img-top" alt="...">
+                </div>
+                <div class="p-0 card-body">
+                <p class="card-text-my m-0">Apple IPhone 15 Rock Pow Degree Rotating Smart Protective Case.</p>
+                <div class="d-flex justify-content-start align-items-center ps5-5 ps3-3">
+                    <div class="d-flex align-items-baseline">
+                        <span class="aed">AED</span>
+                        <span class="four-six-nine-zero">30</span>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                        <span class="five-zero-nine-nine">25</span>
+                        <span class="eight-percent">5%</span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center ps3-3">
+                    <img class="green-bag-img" src="https://f.nooncdn.com/mpcms/EN0001/assets/80299f90-dd89-4c69-a3d3-19c884d5fc05.png" alt="">
+                    <span class="aed">Selling out fast.</span>
+                </div>
+                <div class="d-flex ps3-3">
+                    <img class="express-img" src="https://f.nooncdn.com/s/app/com/noon/images/fulfilment_express_v2-en.svg" alt="">
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-xxl w-100 d-flex p-0">
+        <div id="carouselExampleInterval" class="carousel slide left-banner w-100" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="https://f.nooncdn.com/mpcms/EN0001/assets/cf7d9bd1-315d-4182-840c-5d3d00226e55.gif?format=avif"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://f.nooncdn.com/mpcms/EN0001/assets/328cd3ae-3842-4c39-82bb-b48af53c5e48.png?format=avif"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://f.nooncdn.com/mpcms/EN0001/assets/715f6692-240e-4018-ac61-0537d627240b.png?format=avif"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://f.nooncdn.com/mpcms/EN0001/assets/0a9eb102-1449-4612-85e1-b94c4920b01f.png?format=avif"
+                        class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://f.nooncdn.com/mpcms/EN0001/assets/c685ff84-3b13-41ce-8f46-d8d159a3cbeb.png?format=avif"
+                        class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="container-xxl background-white d-flex flex-column pt-3 pb-2 p-0">
+        <div class="d-flex justify-content-between">
+            <h1 class="in-focus-text-2 ps3-3">Bestsellers in home appliances</h1>
+            <h2 class="all-deals-btn ps33-3">All Deals</h2>
+        </div>
+        <div style="background-color: white;padding: 1rem 0;" class="d-flex justify-content-around">
+            <div class="card card-my-2">
+                <div style="padding: 0.5rem; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                    <div class="my-star-rating">
+                        <span class="my-star-rating-text-1">4.5</span>
+                        <i class="my-star-rating-icon fa-solid fa-star"></i>
+                        <span class="my-star-rating-text-2">(338)</span>
+                    </div>
+                    <div class="my-star-rating-2">
+                        <span class="my-star-rating-text-1">Best Seller</span>
+                    </div>
+                    <img class="love-add" src="https://f.nooncdn.com/s/app/com/noon/icons/wishlist.svg" alt="">
+                    <img class="cart-add-2" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                    <img class="w-100 border-radius-inherit card-img-top" src="https://f.nooncdn.com/p/v1678612140/N41188846A_1.jpg?format=avif&width=240" class="card-img-top" alt="...">
+                </div>
+                <div class="p-0 card-body">
+                <p class="card-text-my m-0">Generic Lint Roller, Super Sticky Pet Hair Remover Kit ….</p>
+                <div class="d-flex justify-content-start align-items-center ps5-5 ps3-3">
+                    <div class="d-flex align-items-baseline">
+                        <span class="aed">AED</span>
+                        <span class="four-six-nine-zero">23</span>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                        <span class="five-zero-nine-nine">208</span>
+                        <span class="eight-percent">82%</span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center ps3-3">
+                    <img class="green-bag-img" src="https://f.nooncdn.com/mpcms/EN0001/assets/80299f90-dd89-4c69-a3d3-19c884d5fc05.png" alt="">
+                    <span class="aed">Selling out fast.</span>
+                </div>
+                <div class="d-flex ps3-3">
+                    <img class="express-img" src="https://f.nooncdn.com/s/app/com/noon/images/fulfilment_express_v2-en.svg" alt="">
+                </div>
+                </div>
+            </div>
+            <div class="card card-my-2">
+                <div style="padding: 0.5rem; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                    <div class="my-star-rating">
+                        <span class="my-star-rating-text-1">4.5</span>
+                        <i class="my-star-rating-icon fa-solid fa-star"></i>
+                        <span class="my-star-rating-text-2">(26)</span>
+                    </div>
+                    <div class="my-star-rating-2">
+                        <span class="my-star-rating-text-1">Best Seller</span>
+                    </div>
+                    <img class="love-add" src="https://f.nooncdn.com/s/app/com/noon/icons/wishlist.svg" alt="">
+                    <img class="cart-add-2" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                    <img class="w-100 border-radius-inherit card-img-top" src="https://f.nooncdn.com/p/pnsku/N31867146A/45/_/1701068689/a2c11b8b-8aa9-45a7-8897-2eceb6a7ff35.jpg?format=avif&width=240" class="card-img-top" alt="...">
+                </div>
+                <div class="p-0 card-body">
+                <p class="card-text-my m-0">Rock Pow Compatible with iPhone 15 Pro Max Case Liq...</p>
+                <div class="d-flex justify-content-start align-items-center ps5-5 ps3-3">
+                    <div class="d-flex align-items-baseline">
+                        <span class="aed">AED</span>
+                        <span class="four-six-nine-zero">29.90</span>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                        <span class="five-zero-nine-nine">140</span>
+                        <span class="eight-percent">78%</span>
+                    </div>
+                </div>
+                <div style="visibility: hidden;" class="d-flex align-items-center ps3-3">
+                    <img class="green-bag-img" src="https://f.nooncdn.com/mpcms/EN0001/assets/80299f90-dd89-4c69-a3d3-19c884d5fc05.png" alt="">
+                    <span class="aed">Selling out fast.</span>
+                </div>
+                <div class="d-flex ps3-3">
+                    <img class="express-img" src="https://f.nooncdn.com/s/app/com/noon/images/fulfilment_express_v2-en.svg" alt="">
+                </div>
+                </div>
+            </div>
+            <div class="card card-my-2">
+                <div style="padding: 0.5rem; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                    <div class="my-star-rating">
+                        <span class="my-star-rating-text-1">3.1</span>
+                        <i class="my-star-rating-icon fa-solid fa-star"></i>
+                        <span class="my-star-rating-text-2">(11.9k)</span>
+                    </div>
+                    <div class="my-star-rating-2">
+                        <span class="my-star-rating-text-1">Best Seller</span>
+                    </div>
+                    <img class="love-add" src="https://f.nooncdn.com/s/app/com/noon/icons/wishlist.svg" alt="">
+                    <img class="cart-add-2" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                    <img class="w-100 border-radius-inherit card-img-top" src="https://f.nooncdn.com/p/pzsku/Z78AC6A6A0047EE44D21BZ/45/_/1676628427/de85fb18-d21d-49ec-b676-87483f07aeb5.jpg?format=avif&width=240" class="card-img-top" alt="...">
+                </div>
+                <div class="p-0 card-body">
+                <p class="card-text-my m-0">Rock Pow Compatible with iPhone 15 Pro Max Case Liq...</p>
+                <div class="d-flex justify-content-start align-items-center ps5-5 ps3-3">
+                    <div class="d-flex align-items-baseline">
+                        <span class="aed">AED</span>
+                        <span class="four-six-nine-zero">29.90</span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center ps3-3">
+                    <img class="green-bag-img" src="https://f.nooncdn.com/mpcms/EN0001/assets/bbe527b1-1a11-432b-ab8c-967aef1f011e.png" alt="">
+                    <span class="aed">40+ sold recently.</span>
+                </div>
+                <div class="d-flex ps3-3">
+                    <img class="express-img" src="https://f.nooncdn.com/s/app/com/noon/images/marketplace-en.png" alt="">
+                </div>
+                </div>
+            </div>
+            <div class="card card-my-2">
+                <div style="padding: 0.5rem; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                    <div class="my-star-rating">
+                        <span class="my-star-rating-text-1">3.6</span>
+                        <i class="my-star-rating-icon fa-solid fa-star"></i>
+                        <span class="my-star-rating-text-2">(6.4k)</span>
+                    </div>
+                    <div class="my-star-rating-2">
+                        <span class="my-star-rating-text-1">Best Seller</span>
+                    </div>
+                    <img class="love-add" src="https://f.nooncdn.com/s/app/com/noon/icons/wishlist.svg" alt="">
+                    <img class="cart-add-2" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                    <img class="w-100 border-radius-inherit card-img-top" src="https://f.nooncdn.com/p/pnsku/N53403324A/45/_/1699604773/37fd8b25-a70e-4bf2-82a7-d8bca3ada6b6.jpg?format=avif&width=240" class="card-img-top" alt="...">
+                </div>
+                <div class="p-0 card-body">
+                <p class="card-text-my m-0">Lenovo Refurbished Thinkpad T450 (2011) 8/256 GB.</p>
+                <div class="d-flex justify-content-start align-items-center ps5-5 ps3-3">
+                    <div class="d-flex align-items-baseline">
+                        <span class="aed">AED</span>
+                        <span class="four-six-nine-zero">69</span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center ps3-3">
+                    <img class="green-bag-img" src="https://f.nooncdn.com/mpcms/EN0001/assets/bbe527b1-1a11-432b-ab8c-967aef1f011e.png" alt="">
+                    <span class="aed">220+ sold recently.</span>
+                </div>
+                <div class="d-flex ps3-3">
+                    <img class="express-img" src="https://f.nooncdn.com/s/app/com/noon/images/fulfilment_express_v2-en.svg" alt="">
+                </div>
+                </div>
+            </div>
+            <div class="card card-my-2">
+                <div style="padding: 0.5rem; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                    <div class="my-star-rating">
+                        <span class="my-star-rating-text-1">4.6</span>
+                        <i class="my-star-rating-icon fa-solid fa-star"></i>
+                        <span class="my-star-rating-text-2">(2.4k)</span>
+                    </div>
+                    <div class="my-star-rating-2">
+                        <span class="my-star-rating-text-1">Best Seller</span>
+                    </div>
+                    <img class="love-add" src="https://f.nooncdn.com/s/app/com/noon/icons/wishlist.svg" alt="">
+                    <img class="cart-add-2" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                    <img class="w-100 border-radius-inherit card-img-top" src="https://f.nooncdn.com/p/v1640429118/N35124096A_1.jpg?format=avif&width=240" class="card-img-top" alt="...">
+                </div>
+                <div class="p-0 card-body">
+                <p class="card-text-my m-0">Apple IPad Rock Pow Degree Rotating Smart Protective Case.</p>
+                <div class="d-flex justify-content-start align-items-center ps5-5 ps3-3">
+                    <div class="d-flex align-items-baseline">
+                        <span class="aed">AED</span>
+                        <span class="four-six-nine-zero">30</span>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                        <span class="five-zero-nine-nine">35</span>
+                        <span class="eight-percent">5%</span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center ps3-3">
+                    <img class="green-bag-img" src="https://f.nooncdn.com/mpcms/EN0001/assets/80299f90-dd89-4c69-a3d3-19c884d5fc05.png" alt="">
+                    <span class="aed">Selling out fast.</span>
+                </div>
+                <div class="d-flex ps3-3">
+                    <img class="express-img" src="https://f.nooncdn.com/s/app/com/noon/images/fulfilment_express_v2-en.svg" alt="">
+                </div>
+                </div>
+            </div>
+            <div class="card card-my-2">
+                <div style="padding: 0.5rem; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex justify-content-center position-relative">
+                    <div class="my-star-rating">
+                        <span class="my-star-rating-text-1">4.4</span>
+                        <i class="my-star-rating-icon fa-solid fa-star"></i>
+                        <span class="my-star-rating-text-2">(633)</span>
+                    </div>
+                    <div class="my-star-rating-2">
+                        <span class="my-star-rating-text-1">Best Seller</span>
+                    </div>
+                    <img class="love-add" src="https://f.nooncdn.com/s/app/com/noon/icons/wishlist.svg" alt="">
+                    <img class="cart-add-2" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
+                    <img class="w-100 border-radius-inherit card-img-top" src="https://f.nooncdn.com/p/v1636482569/N41191541A_1.jpg?format=avif&width=240" class="card-img-top" alt="...">
+                </div>
+                <div class="p-0 card-body">
+                <p class="card-text-my m-0">Apple IPhone 15 Rock Pow Degree Rotating Smart Protective Case.</p>
+                <div class="d-flex justify-content-start align-items-center ps5-5 ps3-3">
+                    <div class="d-flex align-items-baseline">
+                        <span class="aed">AED</span>
+                        <span class="four-six-nine-zero">30</span>
+                    </div>
+                    <div class="d-flex align-items-baseline">
+                        <span class="five-zero-nine-nine">25</span>
+                        <span class="eight-percent">5%</span>
+                    </div>
+                </div>
+                <div class="d-flex align-items-center ps3-3">
+                    <img class="green-bag-img" src="https://f.nooncdn.com/mpcms/EN0001/assets/80299f90-dd89-4c69-a3d3-19c884d5fc05.png" alt="">
+                    <span class="aed">Selling out fast.</span>
+                </div>
+                <div class="d-flex ps3-3">
+                    <img class="express-img" src="https://f.nooncdn.com/s/app/com/noon/images/fulfilment_express_v2-en.svg" alt="">
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-xxl p-0">
+        <div class="d-flex flex-column">
+            <div class="d-flex new-color-2 pt-3 justify-content-between">
+                <h1 class="in-focus-text-2 ps3-3 m-0 new-color-2">Get ready for ramadan</h1>
+                <h2 class="all-deals-btn ps33-3">All Deals</h2>
+            </div>
+            <div class="new-banner-categories new-color-2 d-flex justify-content-around">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/c84d91e7-369c-44fe-a0d4-ff6e7db3ac94.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/8a80c009-902b-405d-b398-439f29f6014e.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/08b9cf44-362c-4ef8-8cf4-3d9f0a409aa9.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/f262b43d-e573-4386-8cc9-595a887d4368.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/0f396181-8009-4d4b-b56a-284ec6fb3155.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/eaa77969-b589-41ad-b045-5240b4907481.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/71011b74-301a-434d-b1ab-6e8333e5c027.png?format=avif" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container-xxl p-0">
+        <div class="d-flex flex-column">
+            <h1 class="in-focus-text-2 ps7-7 m-0 background-white">TV & Appliance Carnival | 12 - 15 Feb</h1>
+            <div class="new-banner-categories background-white d-flex justify-content-around">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/8b3d72cf-c590-4818-bc1a-1f2327bd9d6d.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/f5bd3539-971b-4c9a-a0e6-88ab847706e1.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/d8c78302-42a4-4f48-acec-6f9764ef626a.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/176a94be-8344-4c20-8edb-42830b861d88.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/7f897659-a9f4-46c7-b399-ce455233067e.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/a8aa9e8e-51be-4b81-a669-3229e8d06a59.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/51ee5c0f-c383-44a5-8275-619fc0bf1dea.png?format=avif" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container-xxl p-0">
+        <div class="d-flex flex-column">
+            <div class="d-flex background-white pt-3 justify-content-between">
+                <h1 class="in-focus-text-2 ps3-3 m-0 background-white">Women's fashion</h1>
+                <h2 class="all-deals-btn ps33-3">All Deals</h2>
+            </div>
+            <div class="new-banner-categories background-white d-flex justify-content-around">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/f3b522c3-7b12-4eb2-964f-dbefa653f19d.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/c7bcb270-b2cb-4ef0-87e4-815a7b9d8922.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/fe8f089d-9aae-4903-afd1-c17638089cb2.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/4066e5e8-e32a-422b-a623-9cec8fec821c.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/8c6db7d5-f412-49b6-9fdb-393d3f9ce2e0.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/f64ccfbf-20da-4877-bc39-a7f0b2140e45.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/2cfa2e1f-e0ef-4b17-a515-32c09b6c9caf.png?format=avif" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container-xxl p-0">
+        <div class="d-flex flex-column">
+            <div class="d-flex background-white pt-2 justify-content-between">
+                <h1 class="in-focus-text-2 ps3-3 m-0 background-white">Men's fashion</h1>
+                <h2 class="all-deals-btn ps33-3">All Deals</h2>
+            </div>
+            <div class="new-banner-categories background-white d-flex justify-content-around">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/4976940d-e2fd-449c-be0e-651f2d586312.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/6dede662-1fa0-4a87-ac94-8d1fd31997fe.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/f63dcccd-c703-4013-868c-5b8d43a6bd3a.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/9ef348de-2f3b-4aec-a03d-3c6cd51cab19.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/a9f7844d-9371-4f12-881b-333bc4913d5a.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/438da0ce-bd6d-4724-aa75-ac492df911cd.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/492f1d54-e7b0-4bd3-8f33-31291369235e.png?format=avif" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container-xxl p-0">
+        <div class="d-flex flex-column">
+            <div class="d-flex background-white pt-2 justify-content-between">
+                <h1 class="in-focus-text-2 ps3-3 m-0 background-white">Kid's fashion</h1>
+                <h2 class="all-deals-btn ps33-3">All Deals</h2>
+            </div>
+            <div class="new-banner-categories background-white d-flex justify-content-around">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0002/assets/2ba819c5-e69e-4371-ae94-9c7c1e3b5dfd.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0002/assets/081fc6d5-d5c0-4c44-86e9-07e132b9dbf3.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0002/assets/7d8efdb3-a55c-4519-9bee-de182e14d2ca.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0002/assets/b2eb5dac-0c6c-409d-8bb1-ba0613ee88b6.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0002/assets/afa285fe-1915-4901-bca7-639c6b30c5fe.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0002/assets/68f5f50c-1a5e-4326-bad1-0d47f700a270.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0002/assets/0decbe3f-ccd2-4d4a-8f0c-4a15d8e667b8.png?format=avif" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container-xxl p-0">
+        <div class="d-flex flex-column">
+            <div class="d-flex background-white pt-2 justify-content-between">
+                <h1 class="in-focus-text-2 ps3-3 m-0 background-white">Home & kitchen favourites</h1>
+                <h2 class="all-deals-btn ps33-3">All Deals</h2>
+            </div>
+            <div class="new-banner-categories background-white d-flex justify-content-around">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/fc95d20c-24b6-42f9-81de-182a578d43c3.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/50cd9007-0e73-40e8-96c0-f26b497810e3.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/9266801b-eb35-44ca-a9dc-3e9cbe9abef6.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/7d0ac7c5-7634-4386-835d-0ced83822d4e.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/e03d6a38-1844-4b70-9ed2-038f1d3b2dc1.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/73db2daa-9e0c-4641-b6af-d391799c76bf.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/5c87aa74-6f9a-4bfc-a93e-226745e057c3.png?format=avif" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container-xxl p-0">
+        <img class="w-100" src="https://f.nooncdn.com/ads/banner-1440x1440/en_dk_uae-lowermid-01.1707314413.28872.png?format=avif" alt="">
+        <p style="text-align: right;margin: 0 0 0 0;padding-right: 1rem;" class="four-six-nine-zero background-white">Sponsored</p>
+    </div>
+    <div class="container-xxl p-0">
+        <div class="d-flex flex-column">
+            <div class="d-flex background-white pt-3 justify-content-between">
+                <h1 class="in-focus-text-2 ps3-3 m-0 background-white">Electronics</h1>
+                <h2 class="all-deals-btn ps33-3">All Deals</h2>
+            </div>
+            <div class="new-banner-categories background-white d-flex justify-content-around">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/07b5f648-64df-41d0-b7e6-1fb0c3f8fe83.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/17682649-e5a4-41bb-b425-7665f769a770.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/f52f4449-9b10-4417-8909-7c8aa91fab3a.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/a6d4f334-07df-45b1-972b-4a199e4f347a.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/6c49e007-aba6-4f4d-bdad-8dfc774a679d.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/65f19485-e702-497f-9d6d-c82b557d96a4.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/fac70493-90b5-439b-80a2-51fe44b80af7.png?format=avif" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container-xxl p-0">
+        <div class="d-flex flex-column">
+            <div class="d-flex background-white pt-2 justify-content-between">
+                <h1 class="in-focus-text-2 ps3-3 m-0 background-white">Mobiles & accessories</h1>
+                <h2 class="all-deals-btn ps33-3">All Deals</h2>
+            </div>
+            <div class="new-banner-categories background-white d-flex justify-content-around">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/73a918ab-1582-4aef-88ca-dfcddaaff0c2.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/1ccb8702-be07-44b5-9231-e62d174fde69.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/fa457f44-c24f-4cdc-8992-659df37c6a21.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/1755b68a-2543-4a12-be4d-5421b942acc7.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/8a023d08-7361-4394-8b33-652056bcc0d1.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/f24b9259-6fd1-4ffb-9ab9-ca172560d1d1.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/ff1bb9cd-528f-4a94-9dd7-5013e9e1e2bb.png?format=avif" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container-xxl p-0">
+        <div class="d-flex flex-column">
+            <div class="d-flex background-white pt-2 justify-content-between">
+                <h1 class="in-focus-text-2 ps3-3 m-0 background-white">Laptops & accessories</h1>
+                <h2 class="all-deals-btn ps33-3">All Deals</h2>
+            </div>
+            <div class="new-banner-categories background-white d-flex justify-content-around">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/04f2e958-755b-494c-b341-a035de96201f.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/3e517a9b-5d68-4a04-9436-35b072fe15dd.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/5288a5d5-012e-4cba-9529-482b5ac74de1.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/b9a047b6-24dc-4563-9895-c0a7d5eee1ba.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/e664b0b3-e196-4bfb-8b9f-e1ee29713fa1.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/00db5f8c-c8d7-4025-9f8c-5c7ca77dea18.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/dca9dcf8-cd28-46c0-b97e-22055c095e04.png?format=avif" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container-xxl p-0">
+        <div class="d-flex flex-column">
+            <div class="d-flex background-white pt-2 justify-content-between">
+                <h1 class="in-focus-text-2 ps3-3 m-0 background-white">Beauty</h1>
+                <h2 class="all-deals-btn ps33-3">All Deals</h2>
+            </div>
+            <div class="new-banner-categories background-white d-flex justify-content-around">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/eef768bf-7613-4612-bdea-fe5adf18aa99.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/2f7f81c2-bde9-49a2-8ad0-8d4a9848b14e.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/af116c69-517f-442b-aad4-3cee0410d328.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/eae72d91-4e30-4609-b1b6-6c2fd5afb24b.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/72467e0c-d422-4736-9cd5-3dc6bfb7ddc8.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/58526dfa-348a-4517-8d0d-fc2c2f3b81f3.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/f6df878d-1637-429c-bf88-9ecd0adac54b.png?format=avif" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container-xxl p-0">
+        <div class="d-flex flex-column">
+            <div class="d-flex background-white pt-2 justify-content-between">
+                <h1 class="in-focus-text-2 ps3-3 m-0 background-white">Watches</h1>
+                <h2 class="all-deals-btn ps33-3">All Deals</h2>
+            </div>
+            <div class="new-banner-categories background-white d-flex justify-content-around">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/bea336e3-c8c7-4425-9fd1-db2152315c0b.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/73b49d62-4e5b-4331-8a46-531bc2179dde.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/f12b78f6-9b67-418d-99d6-b07759f93854.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/6913a162-bf38-44bd-a062-8f9d72b4a425.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/0344e491-1bb2-4c9c-ba94-b817e6192f4f.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/b0b425e9-fd1d-4c6e-8769-5981380527af.png?format=avif" alt="">
+                <img class="new-banner-small-images" src="https://f.nooncdn.com/mpcms/EN0001/assets/2cf29067-244d-462a-a96c-c5ab6d5dc4de.png?format=avif" alt="">
+            </div>
+        </div>
+    </div>
+    <div class="container-xxl p-0">
+        <img class="w-100" src="https://f.nooncdn.com/mpcms/EN0001/assets/8e4d7b89-40cf-4e18-a38d-c4f74927f5d4.jpg?format=avif" alt="">
+        <div class="d-flex mt-1 justify-content-center">
+            <img class="w-50" src="https://tpc.googlesyndication.com/simgad/9666622942607584134" alt="">
+        </div>
+    </div>
+    <div class="container-xxl background-white p-3">
+        <p class="four-six-nine-zero mb-2">Superior online shopping in the UAE</p>
+        <p class="card-text-my new-color-3 line-height display-nun p-0">As the leading destination for online shopping in the UAE, noon has everything you need under one roof. Whether you’re shopping for the latest electronic products, fashion, homeware, products for kids and babies, books and stationery, sports and health essentials, beauty products, or groceries, we have millions of products in the noon UAE store. As a customer-centric online store, we make it easier to buy online with flexible payment plans that help you save, along with regular sales across our extensive product range, gift cards, wishlists, our exclusive Mashreq VIP card, our easy-to-use shopping app, and so much more. At noon, we work hard to deliver the very best experience for our customers. We deliver to Dubai, Abu Dhabi and all other cities in the UAE. As a superstore with multiple departments and exceptional customer service, we offer so much more than your average online shop. We go above and beyond to make your shopping experience as stress-free as possible, with products that offer long-term quality. Save time and effort, and enjoy one-stop shopping from the comfort of your home. Shop online and get free shipping on orders over a set amount. <br><a class="notextdeco-2" href="">Read More</a></p>
+        <p class="four-six-nine-zero mb-2">Shop the best products & brands at noon UAE</p>
+        <p class="card-text-my new-color-3 line-height display-nun p-0">You’ll find a massive variety of products from top brands at noon UAE. Our electronics department has the latest mobile phones, along with tablets, mobile accessories, laptops, wearable technology such as smartwatches and other wearable devices, headphones (in-ear, wireless and noise-cancelling), audiovisual gear, a selection of cameras, televisions, video game consoles such as PC and Xbox controllers, and video games. We have products from Samsung, Xiaomi, Sony, HP, Dell, Huawei, Lenovo, Apple, and many other leading tech brands. <br><a class="notextdeco-2" href="">Read More</a></p>
+        <p class="four-six-nine-zero mb-2">Hassle-free UAE online shopping</p>
+        <p class="card-text-my new-color-3 line-height display-nun p-0">When you buy online at noon, you will always have peace of mind knowing that you are getting the best level of service. We take the hassle out of online shopping in Abu Dhabi and Dubai, with a number of features and flexible payment plans that make shopping simpler, faster, and better. Our Buy Now, Pay Later plans include Tabby, with orders split over 4 payments, and Tamara, with orders split over 3 payments. Both plans are interest-free. We accept credit cards and debit cards from Emirates NBD, FAB bank, Mashreq bank, ADCIB, and ADIB, and cash on delivery. For even more convenience, we have a No-Cost EMI. We have a 15-day return policy that takes even more stress.... <br><a class="notextdeco-2" href="">Read More</a></p>
+    </div>
+    <div style="border-top: 1px solid #e2e5f1;border-bottom: 1px solid #e2e5f1;">
+        <div class="container-xxl d-flex justify-content-between p-3">
+            <div style="gap: 0.5rem;" class="d-flex flex-column">
+                <h1 class="in-focus-text-2 m-0">We're Always Here To Help</h1>
+                <p class="card-text-my-2 new-color-3 line-height display-nun m-0 p-0">Reach out to us through any of these support channels</p>
+            </div>
+            <div style="gap: 2rem;" class="d-flex">
+                <div style="gap: 0.5rem;" class="d-flex align-items-center">
+                    <i style="cursor: pointer;transition: 0.3s ease-in-out;" onmouseover="this.style.transform='translateY(5px)'" onmouseout="this.style.transform='translateY(0px)'" class="fa-solid in-focus-text over-flow-s fa-circle-info"></i>
+                    <div class="d-flex flex-column">
+                        <p class="card-text-my-2 new-color-3 line-height display-nun m-0 p-0">HELP CENTER</p>
+                        <h1 style="cursor: pointer;" class="in-focus-text-3 m-0">help.noon.com</h1>
+                    </div>
+                </div>
+                <div style="gap: 0.5rem;" class="d-flex align-items-center">
+                    <i style="cursor: pointer;transition: 0.3s ease-in-out;" onmouseover="this.style.transform='translateY(5px)'" onmouseout="this.style.transform='translateY(0px)'" class="fa-solid in-focus-text over-flow-s fa-envelope"></i>
+                    <div class="d-flex flex-column">
+                        <p class="card-text-my-2 new-color-3 line-height display-nun m-0 p-0">EMAIL SUPPORT</p>
+                        <h1 style="cursor: pointer;" class="in-focus-text-3 m-0">care@noon.com</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="border-bottom: 1px solid #e2e5f1;" class="background-white">
+        <div style="padding: 1rem 0.2rem 3rem 0.2rem;column-gap: 0.7rem;" class="container-xxl d-flex justify-content-between">
+            <div style="row-gap: 0.8rem;" class="d-flex flex-column">
+                <h1 class="in-focus-text-4 m-0">ELECTRONICS</h1>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Mobiles</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Tablets</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Laptops</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Home Appliances</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Camera, Photo & Video</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Televisions</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Headphones</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Video Games</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Best Mobile Phones</p>
+            </div>
+            <div style="row-gap: 0.8rem;" class="d-flex flex-column">
+                <h1 class="in-focus-text-4 m-0">FASHION</h1>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Women's Fashion</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Men's Fashion</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Girls' Fashion</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Boys' Fashion</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Watches</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Jewellery</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Women's Handbags</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Men's Eyewear</p>
+            </div>
+            <div style="row-gap: 0.8rem;" class="d-flex flex-column">
+                <h1 class="in-focus-text-4 m-0">HOME & KITCHEN</h1>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Bath</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Home Decor</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Laptops</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Kitchen & Dining</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Tools & Home</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Audio & Video</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Furniture</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Patio, Lawn & Garden</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Pet Supplies</p>
+            </div>
+            <div style="row-gap: 0.8rem;" class="d-flex flex-column">
+                <h1 class="in-focus-text-4 m-0">BEAUTY</h1>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Fragrance</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Make-Up</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Haircare</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Skincare</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Bath & Body</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Electronic Beauty Tools</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Men's Grooming</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Health Care Essentials</p>
+            </div>
+            <div style="row-gap: 0.8rem;" class="d-flex flex-column">
+                <h1 class="in-focus-text-4 m-0">BABY & TOYS</h1>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Diapering</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Baby Transport</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Nursing & Feeding</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Baby & Kids Fashion</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Baby & Toddler Toys</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Tricycles & Scooters</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Board Games & Cards</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Outdoor Play</p>
+            </div>
+            <div style="row-gap: 0.8rem;" class="d-flex flex-column">
+                <h1 class="in-focus-text-4 m-0">TOP BRANDS</h1>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Pampers</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Apple</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Nike</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Samsung</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Tefal</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">L'Oréal Paris</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Skechers</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">BLACK+DECKER</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Saudi Pro League</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Valentine's Offers</p>
+            </div>
+            <div style="row-gap: 0.8rem;" class="d-flex flex-column">
+                <h1 class="in-focus-text-4 m-0">DAILY GROCERIES</h1>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Fresh Produce</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Dairy & Eggs</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Bread & Bakery</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Meat & Seafood</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Breakfast Food</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Pantry Staples</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Household Supplies</p>
+                <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Personal Care</p>
+            </div>
+        </div>
+        <div class="container-xxl d-flex justify-content-around pt-2 pb-5">
+            <div style="width: 40%;row-gap: 0.7rem;" class="d-flex flex-column">
+                <h1 class="in-focus-text-4 force-text-align m-0">SHOP ON THE GO</h1>
+                <div style="column-gap: 1rem;" class="d-flex justify-content-center">
+                    <img style="cursor: pointer;transition: 0.3s ease-in-out;" onmouseover="this.style.transform='translateY(6px)'" onmouseout="this.style.transform='translateY(0px)'" class="store-imgs" src="https://f.nooncdn.com/s/app/com/common/images/logos/app-store.svg" alt="">
+                    <img style="cursor: pointer;transition: 0.3s ease-in-out;" onmouseover="this.style.transform='translateY(6px)'" onmouseout="this.style.transform='translateY(0px)'" class="store-imgs" src="https://f.nooncdn.com/s/app/com/common/images/logos/google-play.svg" alt="">
+                    <img style="cursor: pointer;transition: 0.3s ease-in-out;" onmouseover="this.style.transform='translateY(6px)'" onmouseout="this.style.transform='translateY(0px)'" class="store-imgs" src="https://f.nooncdn.com/s/app/com/noon/images/Huawei-icon.png" alt="">
+                </div>
+            </div>
+            <div style="width: 40%;row-gap: 0.7rem;" class="d-flex flex-column">
+                <h1 class="in-focus-text-4 force-text-align m-0">CONNECT WITH US</h1>
+                <div style="column-gap: 1rem;" class="d-flex justify-content-center">
+                    <i style="cursor: pointer;transition: 0.3s ease-in-out;" onmouseover="this.style.transform='translateY(5px)'" onmouseout="this.style.transform='translateY(0px)'" class="fa-brands fa-cup fa-facebook"></i>
+                    <i style="cursor: pointer;transition: 0.3s ease-in-out;" onmouseover="this.style.transform='translateY(5px)'" onmouseout="this.style.transform='translateY(0px)'" class="fa-brands fa-cup fa-twitter"></i>
+                    <i style="cursor: pointer;transition: 0.3s ease-in-out;" onmouseover="this.style.transform='translateY(5px)'" onmouseout="this.style.transform='translateY(0px)'" class="fa-brands fa-cup fa-instagram"></i>
+                    <i style="cursor: pointer;transition: 0.3s ease-in-out;" onmouseover="this.style.transform='translateY(5px)'" onmouseout="this.style.transform='translateY(0px)'" class="fa-brands fa-cup fa-linkedin"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="gap: 1rem;" class="d-flex justify-content-between pb-5 pt-3">
+        <div class="d-flex justify-content-between width-42">
+            <span class="card-text-my-2 new-color-3 line-height display-nun m-0 p-0">&copy;2024 Made by Shahzaib Ali</span>
+            <div class="d-flex column-gap-aega">
+                <img class="width-10" src="https://f.nooncdn.com/s/app/com/noon/design-system/payment-methods-v2/card-mastercard.svg" alt="">
+                <img class="width-10" src="https://f.nooncdn.com/s/app/com/noon/design-system/payment-methods-v2/card-visa.svg" alt="">
+                <img class="width-10" src="https://f.nooncdn.com/s/app/com/noon/design-system/payment-methods-v2/tabby_v2.svg" alt="">
+                <img class="width-10" src="https://f.nooncdn.com/s/app/com/noon/design-system/payment-methods-v2/tamara-en.svg" alt="">
+                <img class="width-10" src="https://f.nooncdn.com/s/app/com/noon/design-system/payment-methods-v2/card-amex.svg" alt="">
+                <img class="width-10" src="https://f.nooncdn.com/s/app/com/noon/design-system/payment-methods-v2/cod-en.svg" alt="">
+            </div>
+        </div>
+        <div class="d-flex careers">
+            <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Careers</p>
+            <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Warranty Policy</p>
+            <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Sell with us</p>
+            <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Terms of Use</p>
+            <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Terms of Sale</p>
+            <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Privacy Policy</p>
+            <p style="cursor: pointer;" class="card-text-my-2 m-0 p-0">Consumer Rights</p>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/e686848577.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
