@@ -1,7 +1,8 @@
-// const div = document.querySelector('div')
-// const electronicsWrapper = document.querySelector('.electronics-card-wrapper');
-// electronicsWrapper.innerHTML = '';
-// const data = axios('https://fakestoreapi.com/products');
+const electronicsWrapper = document.querySelector(".electronics-wrapper");
+const mensWrapper = document.querySelector('.mens-wrapper');
+const womensWrapper = document.querySelector('.womens-wrapper');
+const jeweleryWrapper = document.querySelector('.jewelery-wrapper');
+const data = axios("https://fakestoreapi.com/products");
 // // data.then(res => {
 // //     return res.data
 // // }).then(res => {
@@ -10,45 +11,159 @@
 // //         console.log(item.category);
 // //     })
 // // })
-// data.then(res => res.data).then(res => {
-//     const filtered = res.filter(item => {
-//         return item.category === "electronics"
-//     })
-//     filtered.map(item => {
-//         console.log(item);
-//         electronicsWrapper.innerHTML += `
-//         <div class="card card-my-2">
-//                 <div style="padding: 0.5rem; height:280px; border-top-left-radius: inherit; border-top-right-radius: inherit;" class="d-flex align-items-center justify-content-center position-relative">
-//                     <div class="my-star-rating">
-//                         <span class="my-star-rating-text-1">4.6</span>
-//                         <i class="my-star-rating-icon fa-solid fa-star"></i>
-//                         <span class="my-star-rating-text-2">(3.9k)</span>
-//                     </div>
-//                     <img class="love-add" src="https://f.nooncdn.com/s/app/com/noon/icons/wishlist.svg" alt="">
-//                     <img class="cart-add-2" src="https://f.nooncdn.com/s/app/com/noon/icons/quick-atc-add-to-cart-grey.svg" alt="">
-//                     <img style="height:fit-content;" class="w-100 border-radius-inherit card-img-top" src="${item.image}" class="card-img-top" alt="...">
-//                 </div>
-//                 <div style="flex-grow:0;" class="p-0 card-body">
-//                 <p class="card-text-my m-0">${item.title}….</p>
-//                 <div class="d-flex justify-content-start align-items-center ps5-5 ps3-3">
-//                     <div class="d-flex align-items-baseline">
-//                         <span class="aed">AED</span>
-//                         <span class="four-six-nine-zero">${item.price}</span>
-//                     </div>
-//                     <div class="d-flex align-items-baseline">
-//                         <span class="five-zero-nine-nine">5,099</span>
-//                         <span class="eight-percent">8%</span>
-//                     </div>
-//                 </div>
-//                 <div class="d-flex align-items-center ps3-3">
-//                     <img class="green-bag-img" src="https://f.nooncdn.com/mpcms/EN0001/assets/80299f90-dd89-4c69-a3d3-19c884d5fc05.png" alt="">
-//                     <span class="aed">Only 5 left in stock.</span>
-//                 </div>
-//                 <div class="d-flex ps3-3">
-//                     <img class="express-img" src="https://f.nooncdn.com/s/app/com/noon/images/fulfilment_express_v2-en.svg" alt="">
-//                 </div>
-//                 </div>
-//             </div>
-//         `
-//     })
-// })
+data
+    .then((res) => res.data)
+    .then((res) => {
+        const filteredElec = res.filter((item) => {
+            // console.log(item.category);
+            electronicsWrapper.innerHTML = '';
+            return item.category === "electronics";
+        });
+        filteredElec.map((item) => {
+            // console.log(item);
+            electronicsWrapper.innerHTML += `
+        <div class="col">
+            <div class="card text-center justify-content-between h-100 penguin-card-border shadow rounded">
+            <div class="h-100 d-flex justify-content-center align-items-center">
+                <img style="width: 200px;" src="${item.image}" class="card-img-top penguin-card-img" alt="..." />
+            </div>
+                <div>
+                <div class="card-body">
+                    <h5 style="text-overflow: ellipsis;overflow: hidden;height: 48px;" class="card-title">${item.title}</h5>
+                    <p class="card-text">
+                    ${item.description}
+                    </p>
+                </div>
+                <div class="card-footer d-flex justify-content-between align-items-center penguin-card-footer">
+                    <div>
+                        <h3 class="price-text-style">${item.price} $</h3>
+                    </div>
+                    <div>
+                        <button type="button" class="btn penguin-btn">
+                            <i class="fa fa-shopping-cart"></i> BUY NOW
+                        </button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        `;
+        });
+    });
+data
+    .then(res => res.data)
+    .then(res => {
+        const filteredMen = res.filter((item) => {
+            // console.log(item.category);
+            mensWrapper.innerHTML = '';
+            return item.category === "men's clothing";
+        });
+        filteredMen.map((item) => {
+            // console.log(item);
+            mensWrapper.innerHTML += `
+        <div class="col">
+            <div class="card text-center justify-content-between h-100 penguin-card-border shadow rounded">
+            <div class="h-100 d-flex justify-content-center align-items-center">
+                <img style="width: 200px;" src="${item.image}" class="card-img-top penguin-card-img" alt="..." />
+            </div>
+                <div>
+                <div class="card-body">
+                    <h5 style="text-overflow: ellipsis;overflow: hidden;height: 48px;" class="card-title">${item.title}</h5>
+                    <p class="card-text">
+                    ${item.description}
+                    </p>
+                </div>
+                <div class="card-footer d-flex justify-content-between align-items-center penguin-card-footer">
+                    <div>
+                        <h3 class="price-text-style">${item.price} $</h3>
+                    </div>
+                    <div>
+                        <button type="button" class="btn penguin-btn">
+                            <i class="fa fa-shopping-cart"></i> BUY NOW
+                        </button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        `;
+        });        
+    });
+data
+        .then(res => res.data)
+        .then(res => {
+            const filteredWomen = res.filter((item) => {
+                // console.log(item.category);
+                womensWrapper.innerHTML = '';
+                return item.category === "women's clothing";
+            });
+            filteredWomen.map((item) => {
+                // console.log(item);
+                womensWrapper.innerHTML += `
+            <div class="col">
+                <div class="card text-center justify-content-between h-100 penguin-card-border shadow rounded">
+                <div class="h-100 d-flex justify-content-center align-items-center">
+                    <img style="width: 200px;" src="${item.image}" class="card-img-top penguin-card-img" alt="..." />
+                </div>
+                    <div>
+                    <div class="card-body">
+                        <h5 style="text-overflow: ellipsis;overflow: hidden;height: 48px;" class="card-title">${item.title}</h5>
+                        <p class="card-text">
+                        ${item.description}
+                        </p>
+                    </div>
+                    <div class="card-footer d-flex justify-content-between align-items-center penguin-card-footer">
+                        <div>
+                            <h3 class="price-text-style">${item.price} $</h3>
+                        </div>
+                        <div>
+                            <button type="button" class="btn penguin-btn">
+                                <i class="fa fa-shopping-cart"></i> BUY NOW
+                            </button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+            `;
+            });        
+        });
+data
+    .then(res => res.data)
+    .then(res => {
+        const filteredJewel = res.filter((item) => {
+            // console.log(item.category);
+            jeweleryWrapper.innerHTML = '';
+            return item.category === "jewelery";
+        });
+        filteredJewel.map((item) => {
+            // console.log(item);
+            jeweleryWrapper.innerHTML += `
+        <div class="col">
+            <div class="card text-center justify-content-between h-100 penguin-card-border shadow rounded">
+            <div class="h-100 d-flex justify-content-center align-items-center">
+                <img style="width: 200px;" src="${item.image}" class="card-img-top penguin-card-img" alt="..." />
+            </div>
+                <div>
+                <div class="card-body">
+                    <h5 style="text-overflow: ellipsis;overflow: hidden;height: 48px;" class="card-title">${item.title}</h5>
+                    <p class="card-text">
+                    ${item.description}
+                    </p>
+                </div>
+                <div class="card-footer d-flex justify-content-between align-items-center penguin-card-footer">
+                    <div>
+                        <h3 class="price-text-style">${item.price} $</h3>
+                    </div>
+                    <div>
+                        <button type="button" class="btn penguin-btn">
+                            <i class="fa fa-shopping-cart"></i> BUY NOW
+                        </button>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        `;
+        });        
+    })
